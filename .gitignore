@@ -1,1 +1,3 @@
-comps/mh-comp.psd
+comps/*
+node_modules
+.sass-cache
