@@ -297,6 +297,9 @@ body {
   margin: 0;
   padding: 0; }
 
+a:link {
+  color: #f94376; }
+
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'hsu-main';
   speak: none;
@@ -395,9 +398,16 @@ small, .milli {
   font-size: 0.75rem;
   line-height: 2; }
 
+h1 span {
+  display: block; }
+
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
+.branding {
+  background: #242b33;
+  color: #fff; }
+
 .wrapper, .content-wrap, .photo-wrap {
   padding: 0px 16px;
   padding: 0rem 1rem;

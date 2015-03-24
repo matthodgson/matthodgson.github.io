@@ -83,3 +83,9 @@ small,.milli {
   @include rem-fallback(font-size, .75); //12px
   line-height:2; //24px
 }
+
+//Custom styles
+h1 span{
+	display:block;
+//	text-indent:$space-quad;
+}
