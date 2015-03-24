@@ -413,9 +413,6 @@ small, .milli {
 .no-js .slide-wrap {
   display: none; }
 
-.photo-wrap {
-  padding: 0; }
-
 .col-3 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
@@ -502,15 +499,6 @@ small, .milli {
         .col-8 .col-6:last-child {
           margin-right: 0; } }
 
-@media screen and (min-width: 46.875em) {
-  .b-about-facts .col-8 .col-6 {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .b-about-facts .col-8 .col-6:last-child {
-      margin-right: 0; } }
-
 .col-9 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
@@ -522,100 +510,8 @@ small, .milli {
       .col-9:last-child {
         margin-right: 0; } }
 
-.news.col-9 {
-  width: 100%; }
-  @media screen and (min-width: 46.875em) {
-    .news.col-9 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 57.35098%; }
-      .news.col-9:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 57.813em) {
-    .news.col-9 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 74.41059%; }
-      .news.col-9:last-child {
-        margin-right: 0; } }
-
-.events.col-3 {
-  width: 100%; }
-  @media screen and (min-width: 46.875em) {
-    .events.col-3 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 40.29137%; }
-      .events.col-3:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 57.813em) {
-    .events.col-3 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .events.col-3:last-child {
-        margin-right: 0; } }
-
 footer .col-3 {
   padding: 1px 0; }
-
-.panel-intro {
-  width: 100%; }
-  @media screen and (min-width: 57.813em) {
-    .panel-intro {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 74.41059%; }
-      .panel-intro:last-child {
-        margin-right: 0; } }
-
-.mp-layout .mp-half {
-  width: 100%; }
-  @media screen and (min-width: 46.875em) {
-    .mp-layout .mp-half {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .mp-layout .mp-half:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 33.125em) {
-    .mp-layout .mp-half .col-6 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .mp-layout .mp-half .col-6:last-child {
-        margin-right: 0; } }
-@media screen and (min-width: 33.125em) {
-  .mp-layout .mp-quarter {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .mp-layout .mp-quarter:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 46.875em) {
-  .mp-layout .mp-quarter {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    .mp-layout .mp-quarter:last-child {
-      margin-right: 0; } }
-
-.double {
-  margin: 32px 0px;
-  margin: 2rem 0rem; }
-
-.double-pad {
-  padding: 32px 0px;
-  padding: 2rem 0rem; }
 
 /*------------------------------------*\
     $COMPONENTS
