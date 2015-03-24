@@ -2,3 +2,5 @@ comps/*
 node_modules
 .sass-cache
 styles.css.map
+css/scss/bourbon
+css/scss/neat
