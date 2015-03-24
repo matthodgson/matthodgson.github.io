@@ -1,13 +1,23 @@
-//Breakpoints
+//Breakpoint
+$bp-xs: new-breakpoint(min-width 24em);//384px
+$bp-small: new-breakpoint(min-width 28em);//448px
+$bp-smed: new-breakpoint(min-width 33.125em); //530px
+$bp-med: new-breakpoint(min-width 46.875em); //750px
+$bp-large: new-breakpoint(min-width 57.813em); //920px
+$bp-xl: new-breakpoint(min-width 68.75em); //1100px
+$bp-full: new-breakpoint(min-width 75em); //1200px
 
-
-
-
-
+$bp-nav: new-breakpoint(min-width 57.813em max-width 64.75em);
+$bp-smed-med: new-breakpoint(min-width 33.125em max-width 46.875em);
+$bp-xs-large: new-breakpoint(min-width 24em max-width 57.813em);
+$bp-smed-large: new-breakpoint(min-width 33.125em max-width 57.813em);
+$bp-med-large: new-breakpoint(min-width 46.875em max-width 57.813em);
+$bp-large-xl: new-breakpoint(min-width 57.813em max-width 68.75em);
+$bp-large-full: new-breakpoint(min-width 57.813em max-width 75em);
 
 
 //Colors
-
+$white:#fff;
 
 
 

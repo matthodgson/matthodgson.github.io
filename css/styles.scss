@@ -24,8 +24,34 @@
  * TOC To Be Continued
  */
 
+@import "scss/mixins";
 @import "scss/normalize.min";
 @import "scss/boilerplate";
+
+/*------------------------------------*\
+//@import plugins
+\*------------------------------------*/
+
+@import "bourbon/bourbon";
+@import "scss/grid-settings";
+@import "neat/neat";
 @import "scss/variables";
-@import "scss/mixins";
+
+
+/*------------------------------------*\
+    $GLOBAL ELEMENTS
+\*------------------------------------*/
+@import "scss/global";
 @import "scss/type";
+//@import "scss/base/animation";
+
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+@import "scss/layout";
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+//@import "scss/icons";
+@import "scss/buttons";

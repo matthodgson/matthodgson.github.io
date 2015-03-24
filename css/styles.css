@@ -276,6 +276,27 @@ textarea {
 .clearfix {
   *zoom: 1; }
 
+/*------------------------------------*\
+//@import plugins
+\*------------------------------------*/
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/*------------------------------------*\
+    $GLOBAL ELEMENTS
+\*------------------------------------*/
+*, :after, :before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'hsu-main';
   speak: none;
@@ -373,3 +394,231 @@ small, .milli {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 2; }
+
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+.wrapper, .content-wrap, .photo-wrap {
+  padding: 0px 16px;
+  padding: 0rem 1rem;
+  position: relative;
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrapper::after, .content-wrap::after, .photo-wrap::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.no-js .slide-wrap {
+  display: none; }
+
+.photo-wrap {
+  padding: 0; }
+
+.col-3 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .col-3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .col-3:last-child {
+        margin-right: 0; } }
+
+.col-4 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .col-4 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .col-4:last-child {
+        margin-right: 0; } }
+
+.col-5 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .col-5 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .col-5:last-child {
+        margin-right: 0; } }
+
+.col-6 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .col-6 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .col-6:last-child {
+        margin-right: 0; } }
+  .col-6 .col-6 {
+    width: 100%; }
+    @media screen and (min-width: 57.813em) {
+      .col-6 .col-6 {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        .col-6 .col-6:last-child {
+          margin-right: 0; } }
+
+.col-7 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .col-7 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      .col-7:last-child {
+        margin-right: 0; } }
+
+.col-8 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .col-8 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .col-8:last-child {
+        margin-right: 0; } }
+  .col-8 .col-6 {
+    width: 100%; }
+    @media screen and (min-width: 57.813em) {
+      .col-8 .col-6 {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        .col-8 .col-6:last-child {
+          margin-right: 0; } }
+
+@media screen and (min-width: 46.875em) {
+  .b-about-facts .col-8 .col-6 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .b-about-facts .col-8 .col-6:last-child {
+      margin-right: 0; } }
+
+.col-9 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .col-9 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      .col-9:last-child {
+        margin-right: 0; } }
+
+.news.col-9 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .news.col-9 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      .news.col-9:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 57.813em) {
+    .news.col-9 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      .news.col-9:last-child {
+        margin-right: 0; } }
+
+.events.col-3 {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .events.col-3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .events.col-3:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 57.813em) {
+    .events.col-3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .events.col-3:last-child {
+        margin-right: 0; } }
+
+footer .col-3 {
+  padding: 1px 0; }
+
+.panel-intro {
+  width: 100%; }
+  @media screen and (min-width: 57.813em) {
+    .panel-intro {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      .panel-intro:last-child {
+        margin-right: 0; } }
+
+.mp-layout .mp-half {
+  width: 100%; }
+  @media screen and (min-width: 46.875em) {
+    .mp-layout .mp-half {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .mp-layout .mp-half:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 33.125em) {
+    .mp-layout .mp-half .col-6 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .mp-layout .mp-half .col-6:last-child {
+        margin-right: 0; } }
+@media screen and (min-width: 33.125em) {
+  .mp-layout .mp-quarter {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .mp-layout .mp-quarter:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 46.875em) {
+  .mp-layout .mp-quarter {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .mp-layout .mp-quarter:last-child {
+      margin-right: 0; } }
+
+.double {
+  margin: 32px 0px;
+  margin: 2rem 0rem; }
+
+.double-pad {
+  padding: 32px 0px;
+  padding: 2rem 0rem; }
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+
+/*# sourceMappingURL=styles.css.map */
