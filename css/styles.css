@@ -297,7 +297,7 @@ body {
   margin: 0;
   padding: 0; }
 
-a:link {
+a:link, a:visited, a:focus {
   color: #f94376; }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -399,7 +399,8 @@ small, .milli {
   line-height: 2; }
 
 h1 span {
-  display: block; }
+  display: block;
+  line-height: 1.4; }
 
 /*------------------------------------*\
     $LAYOUT
@@ -422,6 +423,27 @@ h1 span {
 
 .no-js .slide-wrap {
   display: none; }
+
+.prompt {
+  background: #444 url(../img/prompt-bar.svg) no-repeat left top;
+  background-size: auto 30px;
+  padding: 16px;
+  padding: 1rem;
+  border-radius: 3px 3px 0 0; }
+  @media screen and (min-width: 46.875em) {
+    .prompt {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      .prompt:last-child {
+        margin-right: 0; } }
+  .prompt h2 {
+    margin-top: 40px;
+    margin-top: 2.5rem; }
+  .prompt p {
+    margin-bottom: 8px;
+    margin-bottom: 0.5rem; }
 
 .col-3 {
   width: 100%; }

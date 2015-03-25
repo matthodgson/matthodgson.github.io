@@ -23,7 +23,22 @@ $max-width:75em;
 .secondary-content{
 //	padding:0 $pad;
 	@include media($bp-large){
-//		@include grid-span(4,9, $options:'right');
+	}
+}
+//Prompt design
+.prompt{
+	background:$black url(../img/prompt-bar.svg) no-repeat left top;
+	background-size:auto 30px;
+	@include rem-fallback(padding, $pad);
+	border-radius:3px 3px 0 0;
+	@include media($bp-med){
+		@include span-columns(7 of 12)
+	}
+	h2{
+		@include rem-fallback(margin-top, $pad*2.5);
+	}
+	p{
+		@include rem-fallback(margin-bottom, $pad-half);
 	}
 }
 
