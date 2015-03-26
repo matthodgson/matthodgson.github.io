@@ -31,15 +31,25 @@ $max-width:75em;
 	background-size:auto 30px;
 	@include rem-fallback(padding, $pad);
 	border-radius:3px 3px 0 0;
+	font-family:$code;
 	@include media($bp-med){
 		@include span-columns(7 of 12)
 	}
 	h2{
-		@include rem-fallback(margin-top, $pad*2.5);
+		font-weight:600;
 	}
 	p{
-		@include rem-fallback(margin-bottom, $pad-half);
+		@include rem-fallback(margin, $pad, 0, 0);
 	}
+	.small span{
+		color:$pink;
+	}
+}
+.box{
+	background:rgba($white, .7);
+}
+.screen{
+	color:rgba($white, .7);
 }
 
 // neat gridding- outer-container- .wrapper, .content-wrap

@@ -429,7 +429,8 @@ h1 span {
   background-size: auto 30px;
   padding: 16px;
   padding: 1rem;
-  border-radius: 3px 3px 0 0; }
+  border-radius: 3px 3px 0 0;
+  font-family: "Source Code Pro"; }
   @media screen and (min-width: 46.875em) {
     .prompt {
       float: left;
@@ -439,11 +440,18 @@ h1 span {
       .prompt:last-child {
         margin-right: 0; } }
   .prompt h2 {
-    margin-top: 40px;
-    margin-top: 2.5rem; }
+    font-weight: 600; }
   .prompt p {
-    margin-bottom: 8px;
-    margin-bottom: 0.5rem; }
+    margin: 16px 0px 0px;
+    margin: 1rem 0rem 0rem; }
+  .prompt .small span {
+    color: #f94376; }
+
+.box {
+  background: rgba(255, 255, 255, 0.7); }
+
+.screen {
+  color: rgba(255, 255, 255, 0.7); }
 
 .col-3 {
   width: 100%; }

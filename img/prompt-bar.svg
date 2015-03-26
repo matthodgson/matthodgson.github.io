@@ -9,10 +9,20 @@
       .cls-4 {
         fill: #ef7f7f;
       }
+
+      .cls-5 {
+        fill: #e5e96d;
+      }
+
+      .cls-6 {
+        fill: #6beb59;
+      }
     </style>
   </defs>
-  <g id="prompt-barpng-32">
+  <g id="prompt-barsvg">
     <rect id="rect-1" class="cls-3" width="2000" height="30"/>
-    <circle id="circle-1" class="cls-4" cx="24" cy="15" r="7"/>
+    <circle id="circle-1" class="cls-4" cx="18" cy="15" r="7"/>
+    <circle id="circle-2" class="cls-5" cx="39" cy="15" r="7"/>
+    <circle id="circle-3" class="cls-6" cx="59" cy="15" r="7"/>
   </g>
 </svg>
