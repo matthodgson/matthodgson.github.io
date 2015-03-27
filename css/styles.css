@@ -297,6 +297,10 @@ body {
   margin: 0;
   padding: 0; }
 
+img {
+  width: auto;
+  height: auto; }
+
 a:link, a:visited, a:focus {
   color: #f94376; }
 
@@ -409,6 +413,14 @@ h1 span {
   background: #242b33;
   color: #fff; }
 
+.hero {
+  background: #21aeee;
+  color: #fff;
+  text-align: center;
+  border-top: solid 2rem #105777;
+  margin-bottom: 48px;
+  margin-bottom: 3rem; }
+
 .wrapper, .content-wrap, .photo-wrap {
   padding: 0px 16px;
   padding: 0rem 1rem;
@@ -421,8 +433,22 @@ h1 span {
     content: "";
     display: table; }
 
-.no-js .slide-wrap {
-  display: none; }
+.projects-item img {
+  width: 100%; }
+
+.browser {
+  background: #444;
+  padding-top: 40px;
+  border-radius: 2px;
+  border: solid 1px #cccccc; }
+
+.browser-address {
+  background: #fff;
+  width: 60%;
+  padding: 0 3px;
+  margin: -30px auto 10px auto;
+  border-radius: 2px;
+  vertical-align: middle; }
 
 .prompt {
   background: #444 url(../img/prompt-bar.svg) no-repeat left top;

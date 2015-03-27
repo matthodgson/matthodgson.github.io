@@ -7,13 +7,36 @@ $max-width:75em;
 	background:$blue-dark;
 	color:$white;
 }
+.hero{
+	background:$blue-light;
+	color:$white;
+	text-align:center;
+	border-top:solid $pad-double $blue-light/2;
+	@include rem-fallback(margin-bottom, $space-triple);
+}
 .wrapper, .content-wrap, .photo-wrap{
 	@include rem-fallback(padding, 0, $pad);
 	position:relative;
 	@include outer-container;
 }
-.no-js .slide-wrap{
-	display:none;
+.projects-item{
+	img{
+		width:100%;
+	}
+}
+.browser{
+	background:$black;
+	padding-top:40px;
+	border-radius:2px;
+	border: solid 1px $black*3;
+}
+.browser-address{
+	background:$white;
+	width:60%;
+	padding:0 3px;
+	margin:-30px auto 10px auto;
+	border-radius:2px;
+	vertical-align:middle;
 }
 .main-content{
 	@include media($bp-large){
