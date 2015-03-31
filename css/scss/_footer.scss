@@ -1,0 +1,6 @@
+.footer-container{
+	background:$blue-dark;
+	color:$white;
+	@include rem-fallback(padding-top, $pad);
+	@include rem-fallback(margin-top, $space-triple);
+}
