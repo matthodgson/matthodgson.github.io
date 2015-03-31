@@ -25,18 +25,32 @@ $max-width:75em;
 	}
 }
 .browser{
-	background:$black;
+//	background:$black;
+	background:$black url(../img/buttons.svg) no-repeat 10px 15px;
 	padding-top:40px;
-	border-radius:2px;
+	border-radius:5px 5px 0 0;
 	border: solid 1px $black*3;
 }
 .browser-address{
 	background:$white;
 	width:60%;
-	padding:0 3px;
-	margin:-30px auto 10px auto;
-	border-radius:2px;
-	vertical-align:middle;
+    padding: 0 10px;
+    margin: -30px auto 10px auto;
+    border-radius: 2px 2px 0 0;
+    height: 25px;
+	a{
+		color:$black;
+		text-decoration:none;
+		&:hover, &:active{
+			color:$blue-light;
+		}
+	}
+	p{
+		margin:0;
+		padding:0;
+		line-height:29px;
+	}
+	
 }
 .main-content{
 	@include media($bp-large){

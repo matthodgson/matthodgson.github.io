@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="57" height="14" viewBox="0 0 57 14">
+  <defs>
+    <style>
+
+      .cls-3 {
+        fill: #ef7f7f;
+      }
+
+      .cls-4 {
+        fill: #e5e96d;
+      }
+
+      .cls-5 {
+        fill: #6beb59;
+      }
+    </style>
+  </defs>
+  <g id="buttons">
+    <circle id="circle-1" class="cls-3" cx="8" cy="7" r="7"/>
+    <circle id="circle-2" class="cls-4" cx="29" cy="7" r="7"/>
+    <circle id="circle-3" class="cls-5" cx="49" cy="7" r="7"/>
+  </g>
+</svg>
