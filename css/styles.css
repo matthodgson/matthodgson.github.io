@@ -602,5 +602,8 @@ footer .col-3 {
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
+.img-effect:hover {
+  transition: all 0.5s linear;
+  opacity: .5; }
 
 /*# sourceMappingURL=styles.css.map */
