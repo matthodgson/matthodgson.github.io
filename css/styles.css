@@ -433,8 +433,11 @@ h1 span {
     content: "";
     display: table; }
 
-.projects-item img {
-  width: 100%; }
+.projects-item {
+  margin: 64px 0px;
+  margin: 4rem 0rem; }
+  .projects-item img {
+    width: 100%; }
 
 .browser {
   background: #444 url(../img/buttons.svg) no-repeat 10px 15px;

@@ -20,6 +20,7 @@ $max-width:75em;
 	@include outer-container;
 }
 .projects-item{
+	@include rem-fallback(margin, $pad * 4, 0);
 	img{
 		width:100%;
 	}
