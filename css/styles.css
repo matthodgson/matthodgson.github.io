@@ -489,6 +489,76 @@ h1 span {
   margin-top: 8px;
   margin-top: 0.5rem; }
 
+/* line 2, scss/_animation.scss */
+#typed-cursor {
+  font-weight: 100;
+  font-size: 18px;
+  color: white; }
+
+/* line 8, scss/_animation.scss */
+.slogan {
+  color: #2E3D48;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  margin: -50px 0 0 0;
+  display: block;
+  width: 100%; }
+
+/* line 19, scss/_animation.scss */
+#typed-cursor {
+  color: #2E3D48;
+  font-weight: 100; }
+
+/* line 24, scss/_animation.scss */
+#typed-cursor.blinking {
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite; }
+
+@keyframes "blink" {
+  /* line 33, scss/_animation.scss */
+  from, to {
+    color: transparent; }
+
+  /* line 36, scss/_animation.scss */
+  50% {
+    color: white; } }
+@-moz-keyframes blink {
+  /* line 43, scss/_animation.scss */
+  from, to {
+    color: transparent; }
+
+  /* line 46, scss/_animation.scss */
+  50% {
+    color: white; } }
+@-webkit-keyframes "blink" {
+  /* line 53, scss/_animation.scss */
+  from, to {
+    color: transparent; }
+
+  /* line 56, scss/_animation.scss */
+  50% {
+    color: white; } }
+@-ms-keyframes "blink" {
+  /* line 63, scss/_animation.scss */
+  from, to {
+    color: transparent; }
+
+  /* line 66, scss/_animation.scss */
+  50% {
+    color: white; } }
+@-o-keyframes "blink" {
+  /* line 73, scss/_animation.scss */
+  from, to {
+    color: transparent; }
+
+  /* line 76, scss/_animation.scss */
+  50% {
+    color: white; } }
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
@@ -587,18 +657,22 @@ h1 span {
     color: #f94376; }
 
 /* line 87, scss/_layout.scss */
-.box {
-  background: rgba(255, 255, 255, 0.7); }
+.cursor {
+  background: white;
+  display: inline-block;
+  width: 7px;
+  margin-left: 5px;
+  font-size: .79rem; }
 
-/* line 90, scss/_layout.scss */
+/* line 94, scss/_layout.scss */
 .screen {
   color: rgba(255, 255, 255, 0.7); }
 
-/* line 95, scss/_layout.scss */
+/* line 99, scss/_layout.scss */
 .col-3 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 95, scss/_layout.scss */
+    /* line 99, scss/_layout.scss */
     .col-3 {
       float: left;
       display: block;
@@ -608,11 +682,11 @@ h1 span {
       .col-3:last-child {
         margin-right: 0; } }
 
-/* line 103, scss/_layout.scss */
+/* line 107, scss/_layout.scss */
 .col-4 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 103, scss/_layout.scss */
+    /* line 107, scss/_layout.scss */
     .col-4 {
       float: left;
       display: block;
@@ -622,11 +696,11 @@ h1 span {
       .col-4:last-child {
         margin-right: 0; } }
 
-/* line 110, scss/_layout.scss */
+/* line 114, scss/_layout.scss */
 .col-5 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 110, scss/_layout.scss */
+    /* line 114, scss/_layout.scss */
     .col-5 {
       float: left;
       display: block;
@@ -636,11 +710,11 @@ h1 span {
       .col-5:last-child {
         margin-right: 0; } }
 
-/* line 117, scss/_layout.scss */
+/* line 121, scss/_layout.scss */
 .col-6 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 117, scss/_layout.scss */
+    /* line 121, scss/_layout.scss */
     .col-6 {
       float: left;
       display: block;
@@ -649,11 +723,11 @@ h1 span {
       /* line 89, scss/neat/grid/_span-columns.scss */
       .col-6:last-child {
         margin-right: 0; } }
-  /* line 123, scss/_layout.scss */
+  /* line 127, scss/_layout.scss */
   .col-6 .col-6 {
     width: 100%; }
     @media screen and (min-width: 57.813em) {
-      /* line 123, scss/_layout.scss */
+      /* line 127, scss/_layout.scss */
       .col-6 .col-6 {
         float: left;
         display: block;
@@ -663,11 +737,11 @@ h1 span {
         .col-6 .col-6:last-child {
           margin-right: 0; } }
 
-/* line 130, scss/_layout.scss */
+/* line 134, scss/_layout.scss */
 .col-7 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 130, scss/_layout.scss */
+    /* line 134, scss/_layout.scss */
     .col-7 {
       float: left;
       display: block;
@@ -677,11 +751,11 @@ h1 span {
       .col-7:last-child {
         margin-right: 0; } }
 
-/* line 137, scss/_layout.scss */
+/* line 141, scss/_layout.scss */
 .col-8 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 137, scss/_layout.scss */
+    /* line 141, scss/_layout.scss */
     .col-8 {
       float: left;
       display: block;
@@ -690,11 +764,11 @@ h1 span {
       /* line 89, scss/neat/grid/_span-columns.scss */
       .col-8:last-child {
         margin-right: 0; } }
-  /* line 142, scss/_layout.scss */
+  /* line 146, scss/_layout.scss */
   .col-8 .col-6 {
     width: 100%; }
     @media screen and (min-width: 57.813em) {
-      /* line 142, scss/_layout.scss */
+      /* line 146, scss/_layout.scss */
       .col-8 .col-6 {
         float: left;
         display: block;
@@ -704,11 +778,11 @@ h1 span {
         .col-8 .col-6:last-child {
           margin-right: 0; } }
 
-/* line 149, scss/_layout.scss */
+/* line 153, scss/_layout.scss */
 .col-9 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 149, scss/_layout.scss */
+    /* line 153, scss/_layout.scss */
     .col-9 {
       float: left;
       display: block;
@@ -718,7 +792,7 @@ h1 span {
       .col-9:last-child {
         margin-right: 0; } }
 
-/* line 158, scss/_layout.scss */
+/* line 162, scss/_layout.scss */
 footer .col-3 {
   padding: 1px 0; }
 

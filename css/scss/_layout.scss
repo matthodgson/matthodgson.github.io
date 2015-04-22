@@ -84,8 +84,12 @@ $max-width:75em;
 		color:$pink;
 	}
 }
-.box{
-	background:rgba($white, .7);
+.cursor{
+	background:$white;
+	display:inline-block;
+	width:7px;
+	margin-left: 5px;
+	font-size:.79rem;
 }
 .screen{
 	color:rgba($white, .7);
