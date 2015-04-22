@@ -20,7 +20,7 @@ $max-width:75em;
 	@include outer-container;
 }
 .projects-item{
-	@include rem-fallback(margin, $pad * 4, 0);
+	@include rem-fallback(margin, $pad * 6, 0);
 	img{
 		width:100%;
 	}
@@ -31,6 +31,7 @@ $max-width:75em;
 	padding-top:40px;
 	border-radius:5px 5px 0 0;
 	border: solid 1px $black*3;
+	font-family:$sans;
 }
 .browser-address{
 	background:$white;

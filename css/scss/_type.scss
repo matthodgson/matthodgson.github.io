@@ -31,6 +31,7 @@ table,
 pre,
 hr{
 	@include rem-fallback(margin-bottom, 1.5);
+	font-family:$sans;
 }
 h1,h2,h3,h4,h5,h6,.light{
 	font-weight:300;
@@ -52,7 +53,7 @@ h1,h2,h3,h4,h5,h6,.light{
 /* Define headings and their associated classes here. */
 h1,.alpha{
 	@include rem-fallback(font-size, 2); //32px
-	line-height:1.5; //48px
+	line-height:1.2; //48px
 }
 h2,.beta{
 	@include rem-fallback(font-size, 1.5); //24px
@@ -88,4 +89,5 @@ small,.milli {
 h1 span{
 	display:block;
 	line-height:1.4;
+	@include rem-fallback(margin-top, $pad-half);
 }
