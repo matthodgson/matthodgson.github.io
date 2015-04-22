@@ -3,11 +3,19 @@
 module.exports = function (grunt) {
 
   grunt.initConfig({
-    // Watch task config
+  	compass: {
+  		dev: {
+  			options: {
+  				config: 'config.rb',
+  				force: true
+  			}
+  		}
+  	},
+	// Watch task config
     watch: {
       sass: {
         files: "css/scss/*.scss",
-        tasks: ['sass']
+        tasks: ['compass:dev']
       }
     },
     // SASS task config
@@ -39,6 +47,7 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
 
