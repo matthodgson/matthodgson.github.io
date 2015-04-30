@@ -796,6 +796,14 @@ h1 span {
 footer .col-3 {
   padding: 1px 0; }
 
+/* line 167, scss/_layout.scss */
+.social {
+  text-align: right; }
+  /* line 169, scss/_layout.scss */
+  .social img {
+    width: 40px;
+    height: 40px; }
+
 /* line 1, scss/_footer.scss */
 .footer-container {
   background: #242b33;
