@@ -489,11 +489,16 @@ h1 span {
   margin-top: 8px;
   margin-top: 0.5rem; }
 
+/* line 94, scss/_type.scss */
+.shadow {
+  text-shadow: 1px 0px 1px #444;
+  color: #242b33; }
+
 /* line 2, scss/_animation.scss */
 #typed-cursor {
   font-weight: 100;
   font-size: 18px;
-  color: white; }
+  color: #fff; }
 
 /* line 8, scss/_animation.scss */
 .slogan {
@@ -520,57 +525,42 @@ h1 span {
   animation: 1s blink step-end infinite; }
 
 @keyframes "blink" {
-  /* line 33, scss/_animation.scss */
-  from, to {
+  from,to {
     color: transparent; }
-
-  /* line 36, scss/_animation.scss */
   50% {
-    color: white; } }
+    color: #fff; } }
 @-moz-keyframes blink {
-  /* line 43, scss/_animation.scss */
-  from, to {
+  from,to {
     color: transparent; }
-
-  /* line 46, scss/_animation.scss */
   50% {
-    color: white; } }
+    color: #fff; } }
 @-webkit-keyframes "blink" {
-  /* line 53, scss/_animation.scss */
-  from, to {
+  from,to {
     color: transparent; }
-
-  /* line 56, scss/_animation.scss */
   50% {
-    color: white; } }
+    color: #fff; } }
 @-ms-keyframes "blink" {
-  /* line 63, scss/_animation.scss */
-  from, to {
+  from,to {
     color: transparent; }
-
-  /* line 66, scss/_animation.scss */
   50% {
-    color: white; } }
+    color: #fff; } }
 @-o-keyframes "blink" {
-  /* line 73, scss/_animation.scss */
-  from, to {
+  from,to {
     color: transparent; }
-
-  /* line 76, scss/_animation.scss */
   50% {
-    color: white; } }
+    color: #fff; } }
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
 /* line 6, scss/_layout.scss */
 .branding {
   background: #242b33;
-  color: white; }
+  color: #fff; }
 
 /* line 10, scss/_layout.scss */
 .hero {
   background: #21aeee;
-  color: white;
+  color: #fff;
   text-align: center;
   border-top: solid 2rem #105777;
   margin-bottom: 48px;
@@ -600,43 +590,47 @@ h1 span {
 
 /* line 28, scss/_layout.scss */
 .browser {
-  background: #444444 url(../img/buttons.svg) no-repeat 10px 15px;
+  background: #444;
+  font-family: "Noto Sans";
   padding-top: 40px;
   border-radius: 5px 5px 0 0;
-  border: solid 1px #cccccc;
-  font-family: "Noto Sans"; }
+  border: solid 1px #cccccc; }
+  @media screen and (min-width: 46.875em) {
+    /* line 28, scss/_layout.scss */
+    .browser {
+      background: #444 url(../img/buttons.svg) no-repeat 10px 15px; } }
 
-/* line 36, scss/_layout.scss */
+/* line 38, scss/_layout.scss */
 .browser-address {
-  background: white;
+  background: #fff;
   width: 60%;
-  padding: 0 10px;
+  padding: 0 0 0 5px;
   margin: -30px auto 10px auto;
   border-radius: 2px 2px 0 0;
   height: 25px; }
-  /* line 43, scss/_layout.scss */
+  /* line 45, scss/_layout.scss */
   .browser-address a {
-    color: #444444;
+    color: #444;
     text-decoration: none; }
-    /* line 46, scss/_layout.scss */
+    /* line 48, scss/_layout.scss */
     .browser-address a:hover, .browser-address a:active {
       color: #21aeee; }
-  /* line 50, scss/_layout.scss */
+  /* line 52, scss/_layout.scss */
   .browser-address p {
     margin: 0;
     padding: 0;
     line-height: 29px; }
 
-/* line 68, scss/_layout.scss */
+/* line 70, scss/_layout.scss */
 .prompt {
-  background: #444444 url(../img/prompt-bar.svg) no-repeat left top;
+  background: #444 url(../img/prompt-bar.svg) no-repeat left top;
   background-size: auto 30px;
   padding: 16px;
   padding: 1rem;
   border-radius: 3px 3px 0 0;
   font-family: "Source Code Pro"; }
   @media screen and (min-width: 46.875em) {
-    /* line 68, scss/_layout.scss */
+    /* line 70, scss/_layout.scss */
     .prompt {
       float: left;
       display: block;
@@ -645,34 +639,34 @@ h1 span {
       /* line 89, scss/neat/grid/_span-columns.scss */
       .prompt:last-child {
         margin-right: 0; } }
-  /* line 77, scss/_layout.scss */
+  /* line 79, scss/_layout.scss */
   .prompt h2 {
     font-weight: 600; }
-  /* line 80, scss/_layout.scss */
+  /* line 82, scss/_layout.scss */
   .prompt p {
     margin: 16px 0px 0px;
     margin: 1rem 0rem 0rem; }
-  /* line 83, scss/_layout.scss */
+  /* line 85, scss/_layout.scss */
   .prompt .small span {
     color: #f94376; }
 
-/* line 87, scss/_layout.scss */
+/* line 89, scss/_layout.scss */
 .cursor {
-  background: white;
+  background: #fff;
   display: inline-block;
   width: 7px;
   margin-left: 5px;
   font-size: .79rem; }
 
-/* line 94, scss/_layout.scss */
+/* line 96, scss/_layout.scss */
 .screen {
   color: rgba(255, 255, 255, 0.7); }
 
-/* line 99, scss/_layout.scss */
+/* line 101, scss/_layout.scss */
 .col-3 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 99, scss/_layout.scss */
+    /* line 101, scss/_layout.scss */
     .col-3 {
       float: left;
       display: block;
@@ -682,11 +676,11 @@ h1 span {
       .col-3:last-child {
         margin-right: 0; } }
 
-/* line 107, scss/_layout.scss */
+/* line 109, scss/_layout.scss */
 .col-4 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 107, scss/_layout.scss */
+    /* line 109, scss/_layout.scss */
     .col-4 {
       float: left;
       display: block;
@@ -696,11 +690,11 @@ h1 span {
       .col-4:last-child {
         margin-right: 0; } }
 
-/* line 114, scss/_layout.scss */
+/* line 116, scss/_layout.scss */
 .col-5 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 114, scss/_layout.scss */
+    /* line 116, scss/_layout.scss */
     .col-5 {
       float: left;
       display: block;
@@ -710,11 +704,11 @@ h1 span {
       .col-5:last-child {
         margin-right: 0; } }
 
-/* line 121, scss/_layout.scss */
+/* line 123, scss/_layout.scss */
 .col-6 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 121, scss/_layout.scss */
+    /* line 123, scss/_layout.scss */
     .col-6 {
       float: left;
       display: block;
@@ -723,11 +717,11 @@ h1 span {
       /* line 89, scss/neat/grid/_span-columns.scss */
       .col-6:last-child {
         margin-right: 0; } }
-  /* line 127, scss/_layout.scss */
+  /* line 129, scss/_layout.scss */
   .col-6 .col-6 {
     width: 100%; }
     @media screen and (min-width: 57.813em) {
-      /* line 127, scss/_layout.scss */
+      /* line 129, scss/_layout.scss */
       .col-6 .col-6 {
         float: left;
         display: block;
@@ -737,11 +731,11 @@ h1 span {
         .col-6 .col-6:last-child {
           margin-right: 0; } }
 
-/* line 134, scss/_layout.scss */
+/* line 136, scss/_layout.scss */
 .col-7 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 134, scss/_layout.scss */
+    /* line 136, scss/_layout.scss */
     .col-7 {
       float: left;
       display: block;
@@ -751,11 +745,11 @@ h1 span {
       .col-7:last-child {
         margin-right: 0; } }
 
-/* line 141, scss/_layout.scss */
+/* line 143, scss/_layout.scss */
 .col-8 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 141, scss/_layout.scss */
+    /* line 143, scss/_layout.scss */
     .col-8 {
       float: left;
       display: block;
@@ -764,11 +758,11 @@ h1 span {
       /* line 89, scss/neat/grid/_span-columns.scss */
       .col-8:last-child {
         margin-right: 0; } }
-  /* line 146, scss/_layout.scss */
+  /* line 148, scss/_layout.scss */
   .col-8 .col-6 {
     width: 100%; }
     @media screen and (min-width: 57.813em) {
-      /* line 146, scss/_layout.scss */
+      /* line 148, scss/_layout.scss */
       .col-8 .col-6 {
         float: left;
         display: block;
@@ -778,11 +772,11 @@ h1 span {
         .col-8 .col-6:last-child {
           margin-right: 0; } }
 
-/* line 153, scss/_layout.scss */
+/* line 155, scss/_layout.scss */
 .col-9 {
   width: 100%; }
   @media screen and (min-width: 46.875em) {
-    /* line 153, scss/_layout.scss */
+    /* line 155, scss/_layout.scss */
     .col-9 {
       float: left;
       display: block;
@@ -792,22 +786,23 @@ h1 span {
       .col-9:last-child {
         margin-right: 0; } }
 
-/* line 162, scss/_layout.scss */
+/* line 164, scss/_layout.scss */
 footer .col-3 {
   padding: 1px 0; }
 
-/* line 167, scss/_layout.scss */
-.social {
-  text-align: right; }
+@media screen and (min-width: 46.875em) {
   /* line 169, scss/_layout.scss */
-  .social img {
-    width: 40px;
-    height: 40px; }
+  .social {
+    text-align: right; } }
+/* line 173, scss/_layout.scss */
+.social img {
+  width: 40px;
+  height: 40px; }
 
 /* line 1, scss/_footer.scss */
 .footer-container {
   background: #242b33;
-  color: white;
+  color: #fff;
   padding-top: 16px;
   padding-top: 1rem;
   margin-top: 48px;

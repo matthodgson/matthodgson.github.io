@@ -26,17 +26,19 @@ $max-width:75em;
 	}
 }
 .browser{
-//	background:$black;
-	background:$black url(../img/buttons.svg) no-repeat 10px 15px;
+	background:$black;
+	font-family:$sans;
+	@include media($bp-med){
+		background:$black url(../img/buttons.svg) no-repeat 10px 15px;
+	}
 	padding-top:40px;
 	border-radius:5px 5px 0 0;
 	border: solid 1px $black*3;
-	font-family:$sans;
 }
 .browser-address{
 	background:$white;
 	width:60%;
-    padding: 0 10px;
+    padding: 0 0 0 5px;
     margin: -30px auto 10px auto;
     border-radius: 2px 2px 0 0;
     height: 25px;
@@ -165,7 +167,9 @@ footer .col-3 {
 
 //social media block
 .social{
+	@include media($bp-med){
 	text-align:right;
+	}
 	img{
 		width:40px;
 		height:40px;

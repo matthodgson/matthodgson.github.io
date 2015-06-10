@@ -91,3 +91,7 @@ h1 span{
 	line-height:1.4;
 	@include rem-fallback(margin-top, $pad-half);
 }
+.shadow {
+	text-shadow: 1px 0px 1px $black;
+	color: $blue-dark;
+}
